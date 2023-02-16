@@ -8,6 +8,8 @@
 
 Note: The balanced accuracy score and the recall appear similar. However, we derive the recall from the imbalanced report which takes into account the imbalance between the high risk and low risk classes, whereas the balanced accuracy average is simply derived by dividing the TPR and TNR by 2.
 
+What is useful about having both measurements is that it indicates to us the impact of the class imbalance on the model's performance.
+
 ### Model 1: Using Random oversampling
 Here are some key features of this model:
  - Balanced accuracy score = 0.67, means the model correctly predicts the loan status 67% of the time.
